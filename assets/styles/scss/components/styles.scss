@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0; }
+  
+  span {
+    color: #1d1b1b;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center; }
+  
+  .button1 {
+    padding: 10px 20px;
+    background-color: $primaryPurple;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; }
+  
+  .button2 {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 3px solid $primaryWhite;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; }
+  
+  .button1:hover {
+    background-color: $primaryHover; }
+  
+  .button2:hover {
+    background-color:$primaryWhite;
+    color:$primaryBlack; }
+  
+  .button3 {
+    width: 136px;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: $primaryPurple;
+    border-radius: 2px;
+    cursor: pointer;
+    color: $primaryWhite;
+    transition: background-color 0.5s ease; }
+  
+  .button3:hover {
+    background-color: $primaryHover; }
+  
+  .image {
+    position: relative;
+    text-align: center;
+    background: url("/assets/images/ocean.png") center/cover fixed;
+    height: 80vh;
+    overflow: hidden; }
+  
+  
+  .abc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $primaryWhite;
+    text-align: center; }
+  
+  .abc h1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  
+  .abc p {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  
+  .sample-accordian {
+    padding: 80px; }
+  
+  .container {
+    padding: 100px 100px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover; }
+  
+   .image1 {
+    width: 50%;
+    height: 60%; }
+  
+  .paragraph {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 400; }
+  
+    .container1 {
+      background-color: #f1efef;
+      padding: 100px 200px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      gap: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background-size: cover;
+      margin: 0px;
+
+  }
+  
+  
+  .container1 .button4 {
+      width: 200px;
+      justify-content: center;
+      padding: 20px 10px;
+      background-color: $primaryPurple;
+      border-radius: 2px;
+      cursor: pointer;
+      color: $primaryWhite;
+      transition: background-color 0.5s ease;
+  }
+  
+  .container1 .button4:hover {
+      background-color: $primaryHover;
+  }
+  
+  .container1 .image2 {
+    justify-items: right;
+      width: 50%;
+      height: 50%;
+      justify-content: flex-end; }
+  
+      .images {
+        position: relative;
+        text-align: center;
+        background: url("/assets/images/wave.jpg") center/cover fixed;
+        height: 60vh;
+        overflow: hidden; }
+      
+  
+  .limit{
+    background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .paragraph2 {
+        justify-content: center;
+        text-align: center;
+
+        color: grey;
+        font-size: 1.2rem;
+        font-weight: 400; }
+  
+  .button5 {
+    width: 165px;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: $primaryPurple;
+    border-radius: 2px;
+    cursor: pointer;
+    color: $primaryWhite;
+    transition: background-color 0.5s ease; }
+
+    .button5:hover {
+      background-color: $primaryHover; }
+
+
+.products{
+  font-size: 1.5rem;
+  background-color: black;
+  background-size: cover;
+  text-align:center;
+  color: #f1efef;
+  padding: 40px 40px;
+  height:200px;
+
+}
+.products span{
+  color:$primaryWhite;
+
+}
+
+      .images1 {
+        position: relative;
+        text-align: center;
+        background: url("/assets/images/beach.jpg") center/cover fixed;
+        height: 60vh;
+        overflow: hidden; }
+      
+        .clients{
+         
+          padding: 70px ;
+          position: relative;
+          overflow: hidden;
+          font-size: 1.3rem;
+          background-color: $primaryWhite;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        ul {
+          padding:50px;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+         gap:70px;
+
+        }
+        
+        li {
+          margin: 10px;
+
+          img{
+            height: 4.5rem;
+            width: 4.5rem;
+          }
+          
+        }
+
+        .paragraph3{
+      background-color: #f1efef;
+      padding: 100px 200px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      gap: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      background-size: cover;
+      margin: 0px;
+        }
+
+
+        footer {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          background-color: black;
+          text-align: center;
+          color: #f1efef;
+          padding: 30px 30px;
+          height: 200px;
+          margin-left: auto;
+          margin-right: auto;
+          gap: 700px;
+        }
+        
+        .footer1 {
+          font-size: 1.5rem;
+          background-size: cover;
+          text-align: left;
+          color: #f1efef;
+          cursor: pointer;
+        }
+        
+        .footer2 {
+          display: flex;
+          flex-direction: row;
+          align-items: right;
+          justify-content: right;
+          font-size: 1.5rem;
+          background-size: cover;
+          text-align: right;
+          color: #f1efef;
+          cursor: pointer;
+        }
+        .footer2 i {
+          justify-content: right;
+          margin-right: 10px;
+          font-size: 1.5rem; 
+          color: #f1efef; 
+          gap:800px;
+        }
+        
+  
+        
+        .footer1 p:hover {
+          color: $primaryPurple; 
+        }
+        
+        .footer2 i:hover {
+          color:$primaryPurple; 
+        }
+        
+        

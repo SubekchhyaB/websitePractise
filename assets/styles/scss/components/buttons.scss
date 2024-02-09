@@ -1,0 +1,77 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: rgb(105, 64, 182);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.button2 {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.button1:hover {
+    background-color: #5a2696;
+   
+
+}
+.button2:hover {
+    background-color: #ffffff;
+    color:#000000;
+
+}
+
+.button3 {
+    width: 136px;;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: #756ad6;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.button3:hover {
+    background-color: #5247b1;
+}
+
+.button4 {
+    width: 200px;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: $primaryPurple;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+ .button4:hover {
+    background-color: $primaryHover;
+}
+
+.button5 {
+    width: 165px;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: $primaryPurple;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease; }
+    
+    .button5:hover {
+      background-color: $primaryHover; }

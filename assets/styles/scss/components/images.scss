@@ -1,0 +1,31 @@
+.image {
+    position: relative;
+    text-align: center;
+    background: url("/assets/images/ocean.png") center/cover fixed;
+    height: 80vh;
+    overflow: hidden; }
+  
+    .image1 {
+        width: 50%;
+        height: 60%; }
+
+        container1 .image2 {
+            justify-items: right;
+              width: 50%;
+              height: 50%;
+              justify-content: flex-end; }
+          
+              .images {
+                position: relative;
+                text-align: center;
+                background: url("/assets/images/wave.jpg") center/cover fixed;
+                height: 60vh;
+                overflow: hidden; }
+              
+                .images1 {
+                    position: relative;
+                    text-align: center;
+                    background: url("/assets/images/beach.jpg") center/cover fixed;
+                    height: 60vh;
+                    overflow: hidden; }
+                           
