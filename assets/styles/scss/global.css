@@ -216,7 +216,7 @@ span {
 .images {
   position: relative;
   text-align: center;
-  background: url("/assets/images/wave.jpg") center/cover fixed;
+  background: url("./images/wave.jpg") center/cover fixed;
   height: 60vh;
   overflow: hidden; }
 
@@ -262,7 +262,7 @@ span {
 .images1 {
   position: relative;
   text-align: center;
-  background: url("/assets/images/beach.jpg") center/cover fixed;
+  background: url("./images/beach.jpg") center/cover fixed;
   height: 60vh;
   overflow: hidden; }
 
@@ -356,7 +356,7 @@ footer {
 .image {
   position: relative;
   text-align: center;
-  background: url("/assets/images/ocean.png") center/cover fixed;
+  background: url("./images/ocean.png") center/cover fixed;
   height: 80vh;
   overflow: hidden; }
 
